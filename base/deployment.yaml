@@ -12,6 +12,8 @@ spec:
       labels:
         app: html-app
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
       - name: web
         image: ghcr.io/digital-individuals/pcp-cicd:799f90d1ae2992a4a455273dae4af545b6ffd0ae
@@ -27,6 +29,7 @@ spec:
           limits:
             memory: "128Mi"
             cpu: "100m"
+
 
 
 
