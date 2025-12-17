@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/Digital-Individuals/PCP-CICD:1f13700cea28ce6726d2afb60d0a2e7cad201939
+        image: ghcr.io/digital-individuals/pcp-cicd:1f13700cea28ce6726d2afb60d0a2e7cad201939
         ports:
         - containerPort: 80
         env:
@@ -27,5 +27,6 @@ spec:
           limits:
             memory: "128Mi"
             cpu: "100m"
+
 
 
