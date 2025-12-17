@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/digital-individuals/pcp-cicd:1f13700cea28ce6726d2afb60d0a2e7cad201939
+        image: ghcr.io/digital-individuals/pcp-cicd:799f90d1ae2992a4a455273dae4af545b6ffd0ae
         ports:
         - containerPort: 80
         env:
