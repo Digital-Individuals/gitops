@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/my-org/my-html-app:latest # Placeholder
+        image: ghcr.io/PLACEHOLDER/PLACEHOLDER:latest # Placeholder
         ports:
         - containerPort: 80
         env:
@@ -26,4 +26,5 @@ spec:
             cpu: "50m"    # 500milliCPUs (1/2 CPU)
           limits:
             memory: "128Mi"
+
             cpu: "100m"
