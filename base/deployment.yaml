@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/PLACEHOLDER/PLACEHOLDER:latest # Placeholder
+        image: ghcr.io/Digital-Individuals/PCP-CICD:latest # Placeholder
         ports:
         - containerPort: 80
         env:
@@ -27,4 +27,5 @@ spec:
           limits:
             memory: "128Mi"
             cpu: "100m"
+
 
