@@ -15,11 +15,12 @@ patches:
       value: "Development"
     - op: replace
       path: /spec/replicas
-      value: 4
+      value: 2
 
 # 2. Update the Image Tag (CI will update this automatically later)
 images:
   - name: ghcr.io/my-org/my-html-app
 
     newTag: latest
+
 
