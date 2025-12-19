@@ -16,7 +16,7 @@ spec:
         - name: ghcr-secret
       containers:
       - name: web
-        image: ghcr.io/digital-individuals/pcp-cicd:799f90d1ae2992a4a455273dae4af545b6ffd0ae
+        image: ghcr.io/digital-individuals/pcp-cicd:6d6ac632477c25311b6b417231b87451ed97e8bf
         ports:
         - containerPort: 80
         env:
